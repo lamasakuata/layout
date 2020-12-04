@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    
+    margin: 0 auto;
+    padding: 1px;
+    }
+
+ul{
+    width: 100%;
+    background: black;
+    color: white;     
+    position: fixed;
+}
+
+.izquierda{
+    text-align: left;
+    width:10%;
+    float: left
+}
+
+.derecha{
+    text-align: right;
+   
+}
+
+#estatua{
+    border-radius: 100%;
+}
+
+#estatua2{
+    background: green;
+    position:absolute;
+    top: 200px;
+    left: 200px;
+    opacity: 0.5;
+    border-radius: 100%;
+    
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+    
+    
+}
+
+header{
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    
+    
+}
+
+h1{
+  width: 750px;
+  margin: 30px auto;
+  padding: 10px;
+  border: 1px solid #91aab9;
+  background: #FFFFFF;
+  box-shadow: orange 5px 5px 10px ;
+}
+
+h2{
+    text-align: left;
+}
+
+.relato{
+    width:calc(70% - 2px);
+    float: left;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+.publicidad{
+    width:calc(25% - 2px);
+    float: left;
+    text-align: left;
+}
+
+#doscolores{
+    background: linear-gradient(#4eae8a,#d34825);
+}
+
+#uncolor{
+    background: #da9216;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    margin: 60px;
+    padding: 30px;
+}
+
+@media only screen and (max-width:576px){
+    body{
+        background-color: #69bdd2;
+           
+    }
+    .izquierda{
+        width: 25%;
+        float: left;
+        padding: 5px;
+    }
+    h1{
+        width: 300px;
+    }
+    .relato,.publicidad{
+        width: 100%;
+    }
+    #estatua2{
+        display: none;
+    }
+    #estatua{
+        display: none;
+    }
+    .derecha{
+        display: none;
+    }
+   
+}
